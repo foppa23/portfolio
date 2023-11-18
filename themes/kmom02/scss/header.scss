@@ -1,0 +1,51 @@
+.header {
+    font-family: $header-font;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    color: $gray-theme1;
+    text-shadow: 2px 2px $gray-theme4;
+}
+
+.header  p {
+    font-size: 1.1em;
+    color: $gray-theme1;
+    text-shadow: 2px 2px $gray-theme4;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+
+.nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: $menu-font;
+    font-weight: 700;
+    color: $gray-theme1;
+    text-shadow: 2px 2px $gray-theme4;
+}
+
+.active {
+    background-color: $color-theme4;
+}
+
+.active a {
+    color: $color-theme3;
+    text-shadow: 1px 1.5px $gray-theme5;
+}
+
+.nav a:hover {
+    color: $menu-highlight-color;
+}
+
+.nav a:active {
+    color: $color-theme3;
+}
+
+.nav ul li {
+    padding: 0.7em 1em;
+}

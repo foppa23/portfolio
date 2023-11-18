@@ -3,10 +3,9 @@ Title: Home
 Description: This is my index page
 ---
 
-Om mig
-==========================
-
 ![Jag](%assets_url%/img/me.jpg)
+
+##Om mig
 
 Jag heter Charlotte Forsberg och jag bor mitt bland fjällen i lappländska Tärnaby. Jag flyttade hit 2011, från Sölvesborg i Blekinge, när längtan efter fjällen blev för stor.
 

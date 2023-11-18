@@ -15,6 +15,7 @@ ol, ul {
 
 html, body {
     height: 100%;
+    font-size: 100%
 }
 
 /* Placement */
@@ -99,10 +100,13 @@ body {
 .main {
     width: 50%;
     margin: 0 auto;
+    color: #333;
 }
 
 p {
     margin-bottom: 1.4rem;
+    font-size: 1em;
+    color: #333;
 }
 
 /* Footer */
@@ -130,18 +134,20 @@ p {
 body {
     font-family: sans-serif;
     line-height: 1.4;
-    color: #444;
+    color: #333;
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: #333;
 }
 
 img {
