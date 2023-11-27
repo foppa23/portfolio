@@ -1,0 +1,41 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="single-technology">
+            <div class="tech-menu">
+                <h2>Meny</h2>
+                    <div class="menu-links">
+                        <a href="../technology/css">CSS</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/html">HTML</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/javascript">JAVASCRIPT</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/php">PHP</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/python">PYTHON</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/git">GIT</a>
+                    </div>
+                    <div class="menu-links">
+                        <a href="../technology/sqlite">SQLITE</a>
+                    </div>
+            </div>
+            <div class="tech-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

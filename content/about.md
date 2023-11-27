@@ -14,7 +14,7 @@ För att effektivisera underhållet av webbplatsens design används [Sass(scss)]
 
 Typsnitt laddas in på sidan från [Google Fonts](https://fonts.google.com/). Till brödtexten används ['Nunito'](https://fonts.google.com/specimen/Nunito?query=nunito) och till rubriker ['Red Hat Display'](https://fonts.google.com/specimen/Red+Hat+Display?query=red+hat). Båda är sans-serif typsnitt som ger en lättläst text. För ikoner på sidan används [Font Awesome](https://fontawesome.com/).
 
-Webbplastens färger har jag skapat med hjälp av färghjulet på sidan [Adobe Color](https://color.adobe.com/sv/create/color-wheel) och bilderna jag använder är mina egna.
+Webbplatsens färger har jag skapat med hjälp av färghjulet på sidan [Adobe Color](https://color.adobe.com/sv/create/color-wheel) och bilderna jag använder är mina egna.
 
 Fokus framöver är att förbättra layout och färger samt att göra webbplatsen mer responsiv. 
 

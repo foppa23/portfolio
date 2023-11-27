@@ -6,20 +6,25 @@
 .nav ul {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 0;
     list-style: none;
 }
 
 .nav ul li {
-    padding: 0 1em;
+    padding: 1em;
+    color: $color-theme3;
+
 }
 
 .nav a, .nav-toggle {
-    color: #333;
+    color: $gray-theme1;
 }
 
 .nav-toggle {
     display: none;
+}
+
+.active a {
+    color: $color-theme3;
 }
 
 @media (max-width: 767px) {
