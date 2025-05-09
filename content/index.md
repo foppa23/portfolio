@@ -9,7 +9,7 @@ Description: This is my index page
 
 Jag heter Charlotte Forsberg och jag bor mitt bland fjällen i lappländska Tärnaby. Jag flyttade hit 2011, från Sölvesborg i Blekinge, när längtan efter fjällen blev för stor.
 
-För väldigt länge sedan, i början av 90-talet, läste jag programmering ett par år. Det jag fick lära mig var främst programmering i C, men också C++, lite Assembler, databaser m.m.
+För väldigt länge sedan, i början av 90-talet, läste jag programmering ett par år. Det jag fick lära mig var främst programmering i C, men också C++, lite Assembler, databaser, elektronik m.m.
 
 Nu har jag inte använt mig av de kunskaperna på länge och har glömt mycket av det, men dagens möjligheter med både studier och arbete på distans ger nya möjligheter för mig som bor så här avlägset. Jag ser fram emot att få fräscha upp mina kunskaper och uppdatera mig med nya programmeringsspråk och tekniker.
 

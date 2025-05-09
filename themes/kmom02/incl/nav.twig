@@ -1,5 +1,6 @@
 <div class="header" role="banner">
     <div class="site-header">
+        {# Logo #}
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
@@ -7,12 +8,14 @@
             </a>
         </div>
         {% endif %}
+        {# Tagline #}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
                 <h1>{{ site_title }}</h1>
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
+        {# Hamburgermeny #}
         <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
             tabindex="1">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>

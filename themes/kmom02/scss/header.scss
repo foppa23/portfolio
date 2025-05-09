@@ -4,14 +4,14 @@
 
 .header h1 {
     font-size: 1.6rem;
-    color: $gray-theme1;
-    text-shadow: 2px 2px $gray-theme4;
+    color: $color-theme8;
+    text-shadow: 1px 1px $gray-theme4;
 }
 
 .header  p {
     font-size: 1.1rem;
-    color: $gray-theme1;
-    text-shadow: 2px 2px $gray-theme4;
+    color: $color-theme8;
+    text-shadow: 1px 1px $gray-theme4;
 }
 
 .header a {
@@ -23,8 +23,12 @@
     align-items: center;
 }
 
-.logo, .title {
-    margin-right: 20px;
+.title {
+    margin:0;
+}
+
+.logo {
+    margin: 0px 20px 0px 0px;
 }
 
 
@@ -34,26 +38,28 @@
     font-family: $menu-font;
     font-weight: 700;
     color: $gray-theme1;
-    text-shadow: 2px 2px $gray-theme4;
-}
-
-.active {
-    background-color: $color-theme4;
-}
-
-.active a {
-    color: $color-theme3;
-    text-shadow: 1px 1.5px $gray-theme5;
+    // text-shadow: 1px 1px $gray-theme4;
+    text-shadow: 1px 1px 0.2px $gray-theme3;
 }
 
 .nav a:hover {
     color: $menu-highlight-color;
 }
 
+// .nav ul li {
+//     padding: 2em 1em;
+// }
+
+.active {
+    background-color: $color-theme3;
+}
+
+.active a {
+    color: $color-theme3;
+    // text-shadow: 1px 1.5px $gray-theme5;
+    text-shadow: 1px 1px 0.2px $gray-theme3;
+}
+
 // li.active {
 //     color: $color-theme3;
 // }
-
-.nav ul li {
-    padding: 2em 1em;
-}

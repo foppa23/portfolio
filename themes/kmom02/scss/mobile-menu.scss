@@ -16,7 +16,7 @@
 }
 
 .nav a, .nav-toggle {
-    color: $gray-theme1;
+    color: $color-theme8;
 }
 
 .nav-toggle {
@@ -24,7 +24,7 @@
 }
 
 .active a {
-    color: $color-theme3;
+    color: $gray-theme1;
 }
 
 @media (max-width: 767px) {

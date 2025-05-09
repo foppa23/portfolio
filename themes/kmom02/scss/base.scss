@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .nav ul {
     margin-bottom: 0;
-    padding: 5px;
-    background-color: $color-theme3;
+    padding: 0px;
+    background-color: $color-theme4;
 }
 
 .nav li {
@@ -12,7 +18,7 @@
 body {
     background-color: $background-color;
     width: 50rem;
-    margin: 1.82rem auto;
+    margin: 0 auto;
 }
 
 .main {
