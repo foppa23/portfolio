@@ -8,7 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'typography';
 @import 'base';
 
@@ -21,6 +21,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'mobile-menu';
 
-.main {
-    background-color: yellow;
-}

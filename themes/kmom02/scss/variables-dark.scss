@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+
+$header-font: 'Red Hat Display', sans-serif;
+$main-font: 'Nunito', sans-serif;
+$menu-font: 'Red Hat Display', sans-serif;
+
+$color-theme1: #637E8F;
+$color-theme2: #8094A6;
+$color-theme3: #7C5D79;
+$color-theme4: #C6B3C4;
+$color-theme5: #D4D2D3;
+$color-theme6: #b8a2b5;
+$color-theme7: #b7c1c1;
+$color-theme8: #6d526b;
+// $color-theme9: #c6cece;
+
+$gray-theme1: #efefef;
+$gray-theme2: #A0A0A0;
+$gray-theme3: #646464;
+$gray-theme4: #323232;
+$gray-theme5: #101010;
+
+$font-color-dark: #333;
+$font-color-light: #fff;
+
+$background-color: $color-theme7;
+
+$double-underline: 5px double #333;
+
+$menu-color: $color-theme5;
+$menu-highlight-color: $color-theme1;
+$menu-active-color: $color-theme1;
