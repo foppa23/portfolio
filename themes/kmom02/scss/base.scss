@@ -7,12 +7,12 @@
 .nav ul {
     margin-bottom: 0;
     padding: 0px;
-    background-color: $color-theme4;
+    // background-color: $color-theme4;
 }
 
 .nav li {
     margin: 0;
-    color: #fff
+    // color: #fff;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 }
 
 .main {
-    background-color: $gray-theme1;
+    background-color: $main-background;
     line-height: 1.3;
     margin: 0 auto;
     padding: 20px;
@@ -34,4 +34,49 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin-bottom: 1.4rem;
+}
+
+th, td, li {
+    color: $font-color;
+}
+
+.a-link {
+    color: $a-link;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.a-link:hover {
+    color: $a-link-hover;
+}
+
+.figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em;
+    border: none;
+}
+
+.figure img {
+    max-width: 100%;
+}
+
+.figure figcaption {
+    caption-side: bottom;
+    font-style: italic;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0.25em;
+    color: $font-color;
+}
+
+.figure.right {
+    float: right;
+    margin-left: 0.9em;
+    margin-bottom: 0.3em;
+}
+
+.figure.left {
+    float: left;
+    margin-right: 1em;
 }

@@ -4,29 +4,53 @@ $header-font: 'Red Hat Display', sans-serif;
 $main-font: 'Nunito', sans-serif;
 $menu-font: 'Red Hat Display', sans-serif;
 
-$color-theme1: #637E8F;
+
+$color-theme1: #40072C;
 $color-theme2: #8094A6;
-$color-theme3: #7C5D79;
-$color-theme4: #C6B3C4;
+$color-theme3: #7C5D79;         // Active menu item background
+$color-theme4: #594654;         // Buttons
 $color-theme5: #D4D2D3;
 $color-theme6: #b8a2b5;
-$color-theme7: #b7c1c1;
-$color-theme8: #6d526b;
-// $color-theme9: #c6cece;
+$color-theme7: #21111e;         // Background #21111e
+$color-theme8: #6d526b;         // Menu font color
+$color-theme9: #f9cf80;
+$color-theme10: #add8e6;        // #add8e6
+$color-theme11: #352a31;
 
-$gray-theme1: #efefef;
+$gray-theme1: #efefef;          // Main #352a31
 $gray-theme2: #A0A0A0;
 $gray-theme3: #646464;
-$gray-theme4: #323232;
+$gray-theme4: #dbdbdb;
 $gray-theme5: #101010;
 
-$font-color-dark: #333;
-$font-color-light: #fff;
+$font-color: #cdcdcd;           // #e3dde5
+$bg-color-code: $color-theme3;
 
-$background-color: $color-theme7;
+$background-color: $color-theme7;       // Background
+$main-background: $color-theme11;            // Main background #352a31 #260119
 
-$double-underline: 5px double #333;
+$double-underline: 5px double $font-color;
 
-$menu-color: $color-theme5;
-$menu-highlight-color: $color-theme1;
-$menu-active-color: $color-theme1;
+$menu-text-color: $color-theme5;        // Menu non active text color
+$menu-background-color: none;           // Background whole menu
+$menu-hover-color: $color-theme3;       // Menu color text hover
+$menu-active-color: $color-theme1;      // Background active menu item
+$menu-active-text: $color-theme5;       // Menu active text color
+$menu-text-shadow: none;
+
+$font-awesome: $font-color;
+$copyright: $font-color;
+
+$header-h1-color: $font-color;
+$header-p-color: $font-color;
+$text-shadow: none;
+
+$tech-menu: $color-theme3;              // Tech menu background color
+$tech-menu-links: $font-color;          // Tech menu links
+$box-bg-color: $color-theme3;           // Buttons bg color
+$box-bg-color-hover: $color-theme1;
+$box-text-color: $color-theme3;
+$box-shadow: none;
+
+$a-link: $color-theme10;
+$a-link-hover: $color-theme9;

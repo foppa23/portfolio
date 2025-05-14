@@ -12,7 +12,8 @@ $color-theme5: #D4D2D3;
 $color-theme6: #b8a2b5;
 $color-theme7: #b7c1c1;
 $color-theme8: #6d526b;
-// $color-theme9: #c6cece;
+$color-theme9: #3039af;
+$color-theme10: #823b99;        // #f9cf80    #3c6884
 
 $gray-theme1: #efefef;
 $gray-theme2: #A0A0A0;
@@ -20,13 +21,36 @@ $gray-theme3: #646464;
 $gray-theme4: #323232;
 $gray-theme5: #101010;
 
-$font-color-dark: #333;
-$font-color-light: #fff;
+$font-color: #333;
+$bg-color-code: #fff;
 
 $background-color: $color-theme7;
+$main-background: $gray-theme1;
 
 $double-underline: 5px double #333;
 
-$menu-color: $color-theme5;
-$menu-highlight-color: $color-theme1;
-$menu-active-color: $color-theme1;
+$menu-text-color: $color-theme3;            // Menu non active text color
+$menu-background-color: none;               // Background whole menu
+$menu-hover-color: $color-theme1;       // Menu color text hover
+$menu-active-color: $color-theme3;          // Background active menu item
+$menu-active-text: $gray-theme1;            // Menu active text color
+$menu-text-shadow: none;
+// $menu-text-shadow: 1px 1px 0.2px $gray-theme3;
+
+$font-awesome: $font-color;
+$copyright: $font-color;
+
+$header-h1-color: $color-theme8;
+$header-p-color: $color-theme8;
+$text-shadow: none;
+// $text-shadow: 1px 1px $gray-theme4;
+
+$tech-menu: $color-theme3;                  // Tech menu background color
+$tech-menu-links: $gray-theme1;
+$box-bg-color: $color-theme4;
+$box-bg-color-hover: $color-theme3;
+$box-text-color: $color-theme4;
+$box-shadow: 2px 2px 2px $gray-theme4;
+
+$a-link: $color-theme9;
+$a-link-hover: $color-theme10;

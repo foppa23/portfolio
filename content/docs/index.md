@@ -6,7 +6,7 @@ Description: Documentation that came with Pico.
 
 # Welcome to Pico
 
-Congratulations, you have successfully installed [Pico][] %version%.
+Congratulations, you have successfully installed <a href="https://picocms.org/" class="a-link">Pico</a> %version%.
 %meta.description% <!-- replaced by the above Description header -->
 
 ## Creating Content
@@ -20,8 +20,7 @@ When you install Pico, it comes with some sample contents that will display
 until you add your own content. Simply add some `.md` files to your `content`
 folder in Pico's root directory. No configuration is required, Pico will
 automatically use the `content` folder as soon as you create your own
-`index.md`. Just check out [Pico's sample contents][SampleContents] for an
-example!
+`index.md`. Just check out <a href="https://github.com/picocms/Pico/tree/master/content-sample" class="a-link">Pico's sample contents</a> for an example!
 
 If you create a folder within the content directory (e.g. `content/sub`) and
 put an `index.md` inside it, you can access that folder at the URL
@@ -40,7 +39,7 @@ Below we've shown some examples of locations and their corresponding URLs:
     <tbody>
         <tr>
             <td>content/index.md</td>
-            <td><a href="%base_url%">/</a></td>
+            <td><a href="%base_url%" class="a-link">/</a></td>
         </tr>
         <tr>
             <td>content/sub.md</td>
@@ -48,7 +47,7 @@ Below we've shown some examples of locations and their corresponding URLs:
         </tr>
         <tr>
             <td>content/sub/page.md</td>
-            <td><a href="%base_url%?docs/sub/page">?sub/page</a></td>
+            <td><a href="%base_url%?docs/sub/page" class="a-link">?sub/page</a></td>
         </tr>
     </tbody>
 </table>
@@ -77,11 +76,11 @@ using the <code>&#37;assets_url&#37;</code> placeholder, for example:
 
 ### Text File Markup
 
-Text files are marked up using [Markdown][] and [Markdown Extra][MarkdownExtra].
+Text files are marked up using <a href="http://daringfireball.net/projects/markdown/syntax" class="a-link">Markdown</a> and <a href="https://michelf.ca/projects/php-markdown/extra/" class="a-link">Markdown Extra</a>.
 They can also contain regular HTML.
 
 At the top of text files you can place a block comment and specify certain meta
-attributes of the page using [YAML][] (the "YAML header"). For example:
+attributes of the page using <a href="https://en.wikipedia.org/wiki/YAML" class="a-link">YAML</a> (the "YAML header"). For example:
 
     ---
     Title: Welcome
@@ -169,15 +168,14 @@ details.
 ### Themes
 
 You can create themes for your Pico installation in the `themes` folder. Pico
-uses [Twig][] for template rendering. You can select your theme by setting the
+uses <a href="http://twig.sensiolabs.org/documentation" class="a-link">Twig</a> for template rendering. You can select your theme by setting the
 `theme` option in `config/config.yml` to the name of your theme folder.
 
-[Pico's default theme][PicoTheme] isn't really intended to be used for a
+<a href="https://github.com/picocms/pico-theme" class="a-link">Pico's default theme</a> isn't really intended to be used for a
 productive website, it's rather a starting point for creating your own theme.
 If the default theme isn't sufficient for you, and you don't want to create
 your own theme, you can use one of the great themes third-party developers and
-designers created in the past. As with plugins, you can find themes in
-[our Wiki][WikiThemes] and on [our website][OfficialThemes].
+designers created in the past. As with plugins, you can find themes in <a href="https://github.com/picocms/Pico/wiki/Pico-Themes" class="a-link">our Wiki</a> and on <a href="http://picocms.org/themes/" class="a-link">our website</a>.
 
 All themes must include an `index.twig` file to define the HTML structure of
 the theme, and a `pico-theme.yml` to set the necessary config parameters. Just
@@ -210,7 +208,7 @@ that URLs (e.g. `{{ base_url }}`) never include a trailing slash.
     * `{{ meta.date_formatted }}` - The formatted date of the page as specified
                                     by the `date_format` parameter in your
                                     `config/config.yml`
-    * `{{ meta.time }}` - The [Unix timestamp][UnixTimestamp] derived from the
+    * `{{ meta.time }}` - The <a href="https://en.wikipedia.org/wiki/Unix_timestamp" class="a-link">Unix timestamp</a> derived from the
                           `Date` YAML header
     * `{{ meta.robots }}` - The `Robots` YAML header
     * ...
@@ -254,7 +252,7 @@ you access a page, it will always consist of the following data:
 * `{{ date }}` - The date of the page (`Date` YAML header)
 * `{{ date_formatted }}` - The formatted date of the page as specified by the
                            `date_format` parameter in your `config/config.yml`
-* `{{ time }}` - The [Unix timestamp][UnixTimestamp] derived from the page's
+* `{{ time }}` - The <a href="https://en.wikipedia.org/wiki/Unix_timestamp" class="a-link">Unix timestamp</a> derived from the page's
                  date
 * `{{ raw_content }}` - The raw, not yet parsed contents of the page; use the
                         filter to get the parsed contents of a page by passing
@@ -262,8 +260,7 @@ you access a page, it will always consist of the following data:
 * `{{ meta }}` - The meta values of the page (see global `{{ meta }}` above)
 * `{{ prev_page }}` - The data of the respective previous page
 * `{{ next_page }}` - The data of the respective next page
-* `{{ tree_node }}` - The page's node in Pico's page tree; check out Pico's
-                      [page tree documentation][FeaturesPageTree] for details
+* `{{ tree_node }}` - The page's node in Pico's page tree; check out Pico's <a href="http://picocms.org/in-depth/features/page-tree/" class="a-link">page tree documentation</a> for details
 
 Pico's `pages()` function is the best way to access all of your site's pages.
 It uses Pico's page tree to easily traverse a subset of Pico's pages list. It
@@ -290,7 +287,7 @@ a page's child pages by passing the `depth` and `depthOffset` params. For
 example, if you pass `pages(depthOffset=-1)`, the list will also include Pico's
 main index page (i.e. `content/index.md`). This one is commonly used to create
 a theme's main navigation. If you want to learn more, head over to Pico's
-complete [`pages()` function documentation][FeaturesPagesFunction].
+complete <a href="http://picocms.org/in-depth/features/pages-function/" class="a-link">pages()` function documentation</a>.
 
 If you want to access the data of a particular page, use Pico's `pages`
 variable. Just take `content/_meta.md` in Pico's sample contents for an
@@ -304,7 +301,7 @@ Pico's page list (e.g. `{% for page in pages() %}…{% endfor %}`).
 
 #### Twig filters and functions
 
-Additional to [Twig][]'s extensive list of filters, functions and tags, Pico
+Additional to <a href="http://twig.sensiolabs.org/documentation" class="a-link">Twig's</a> extensive list of filters, functions and tags, Pico
 also provides some useful additional filters and functions to make theming
 even easier.
 
@@ -340,20 +337,19 @@ even easier.
   a URL's query string like `?some-variable=my-value`) and HTTP POST (i.e. data
   of a submitted form) parameters. This allows you to implement things like
   pagination, tags and categories, dynamic pages, and even more - with pure
-  Twig! Simply head over to our [introductory page for accessing HTTP
-  parameters][FeaturesHttpParams] for details.
+  Twig! Simply head over to our <a href="http://picocms.org/in-depth/features/http-params/" class="a-link">introductory page for accessing HTTP
+  parameters</a> for details.
 
 ### Plugins
 
 #### Plugins for users
 
-Officially tested plugins can be found at http://picocms.org/plugins/, but
+Officially tested plugins can be found at <a href="http://picocms.org/plugins/" class="a-link">picocms.org/plugins/</a>, but
 there are many awesome third-party plugins out there! A good start point for
-discovery is [our Wiki][WikiPlugins].
+discovery is <a href="https://github.com/picocms/Pico/wiki/Pico-Plugins" class="a-link">our Wiki</a>.
 
 Pico makes it very easy for you to add new features to your website using
-plugins. Just like Pico, you can install plugins either using [Composer][]
-(e.g. `composer require phrozenbyte/pico-file-prefixes`), or manually by
+plugins. Just like Pico, you can install plugins either using <a href="https://getcomposer.org/" class="a-link">Composer</a> (e.g. `composer require phrozenbyte/pico-file-prefixes`), or manually by
 uploading the plugin's file (just for small plugins consisting of a single file,
 e.g. `PicoFilePrefixes.php`) or directory (e.g. `PicoFilePrefixes`) to your
 `plugins` directory. We always recommend you to use Composer whenever possible,
@@ -391,7 +387,7 @@ title will be "Pico".
 
 ## Documentation
 
-For more help have a look at the Pico documentation at http://picocms.org/docs.
+For more help have a look at the Pico documentation at <a href="http://picocms.org/docs" class="a-link">pico.cms.org</a>.
 
 [Pico]: http://picocms.org/
 [PicoTheme]: https://github.com/picocms/pico-theme

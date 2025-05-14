@@ -13,9 +13,9 @@
 .box {
     border: 1px solid #333;
     padding: 1rem;
-    background-color: $color-theme4;
-    color: $gray-theme4;
-    box-shadow: 2px 2px 2px $gray-theme4;
+    background-color: $box-bg-color;
+    color: $box-text-color;
+    box-shadow: $box-shadow;
     font-family: $header-font;
     font-weight: 700;
     border-radius: 7px;
@@ -28,7 +28,7 @@
 
 .box:hover {
     text-decoration: none;
-    background-color: $color-theme3;
+    background-color: $box-bg-color-hover;
 
     a {
         color: $gray-theme1;
@@ -51,17 +51,18 @@
     justify-self: left;
     font-family: $header-font;
     font-weight: 600;
-    background-color: $color-theme2;
+    background-color: $tech-menu;
     padding-left: 1rem;
     border: 1px solid #333;
-    box-shadow: 2px 2px 2px $gray-theme4;
+    box-shadow: $box-shadow;
+    // box-shadow: 2px 2px 2px $gray-theme4;
     border-radius: 7px;
 }
 
 .tech-menu a {
     text-decoration: none;
     font-weight: 500;
-    color: $gray-theme1;
+    color: $tech-menu-links;
 }
 
 .tech-menu a:active {
@@ -88,6 +89,10 @@
     font-family: $main-font;
     font-weight: 500;
     border-radius: 7px;
+}
+
+.tech-h2 {
+    color: $tech-menu-links;
 }
 
 .span1 {
