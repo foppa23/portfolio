@@ -6,13 +6,17 @@
 
 .nav ul {
     margin-bottom: 0;
-    padding: 0px;
+    padding: 0;
     // background-color: $color-theme4;
 }
 
 .nav li {
     margin: 0;
     // color: #fff;
+}
+
+html {
+    width: 100%;
 }
 
 body {
@@ -30,6 +34,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
+    font-family: $header-font;
 }
 
 p {
@@ -54,7 +59,7 @@ th, td, li {
     display: inline-block;
     margin: 0;
     padding: 0.5em;
-    border: none;
+    // border: none;
 }
 
 .figure img {
